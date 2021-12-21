@@ -32,7 +32,6 @@ const Form = () => {
     }
 
     // console.log(formData);
-
     useEffect(() => {
         if (segment) {
             if (segment.intent.intent === 'add_expense') {

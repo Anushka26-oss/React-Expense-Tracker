@@ -18,7 +18,7 @@ const App = () => {
                 <Grid item xs={12} sm={4}>
                     <Details title="Expense" />
                 </Grid>
-                <div style={{ marginTop: '15rem' }} />
+                {/* <div style={{ marginTop: '15rem' }} /> */}
                 <PushToTalkButtonContainer>
                     <PushToTalkButton />
                     <ErrorPanel />
